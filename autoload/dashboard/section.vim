@@ -21,12 +21,12 @@ if exists('g:dashboard_custom_section')
   call extend(s:Section, g:dashboard_custom_section)
 else
   let s:Section = {
-    \ 'last_session'         :[' Recently lase session                 '.s:dashboard_shortcut['last_session']],
-    \ 'find_history'         :['ﭯ Recently opened files                 '.s:dashboard_shortcut['find_history']],
-    \ 'find_file'            :[' Find  File                            '.s:dashboard_shortcut['find_file']],
-    \ 'change_colorscheme'   :[' Change Colorscheme                    '.s:dashboard_shortcut['change_colorscheme']],
-    \ 'find_word'            :[' Find  word                            '.s:dashboard_shortcut['find_word']],
-    \ 'book_marks'           :[' Jump to book marks                    '.s:dashboard_shortcut['book_marks']],
+    \ 'last_session'         :[' 保存的会话                            '.s:dashboard_shortcut['last_session']],
+    \ 'find_history'         :['ﭯ 近期的文件                            '.s:dashboard_shortcut['find_history']],
+    \ 'find_file'            :[' 查找文件                              '.s:dashboard_shortcut['find_file']],
+    \ 'change_colorscheme'   :[' 更改配色主题                          '.s:dashboard_shortcut['change_colorscheme']],
+    \ 'find_word'            :[' 查找文字                              '.s:dashboard_shortcut['find_word']],
+    \ 'book_marks'           :[' 查找书签                              '.s:dashboard_shortcut['book_marks']],
     \ }
 endif
 
